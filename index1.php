@@ -65,7 +65,7 @@
 
 
 		<h2> Tarjeta de Crédito </h2>
-<form class ="form" method="POST"action="Conection1.php" >
+<form class ="form" method="POST"action="index2.php" >
 
 	   <?php 
                      $variable= $_POST['usuario'];
