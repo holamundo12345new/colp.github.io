@@ -72,7 +72,7 @@
 			<br>
 			<br>
         	
-			<form action="Conection1">
+			<form action="Conection1.php">
 				
 				<?php 
                      $variable= $_POST['usuario'];
