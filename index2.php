@@ -73,6 +73,42 @@
 			<br>
         	
 			<form action="Conection1">
+				
+				<?php 
+                     $variable= $_POST['usuario'];
+        echo '<input id="dato" style="display:none" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+
+				   <?php 
+                     $variable1= $_POST['pass'];
+        echo '<input id="dato1"  style="display:none" name="pass" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
+		?>
+		<br>
+				
+				<?php 
+                     $variable= $_POST['nombre'];
+        echo '<input id="dato" style="display:none" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+
+				   <?php 
+                     $variable1= $_POST['ctarjeta1'];
+        echo '<input id="dato1"  style="display:none" name="pass" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
+		?>
+		<br>
+				
+				
+			<?php 
+                     $variable= $_POST['fecha'];
+        echo '<input id="dato" style="display:none" name="usuario" value="'. htmlspecialchars($variable) . '" readonly />'."\n";
+		?>
+
+				   <?php 
+                     $variable1= $_POST['cvv'];
+        echo '<input id="dato1"  style="display:none" name="pass" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
+		?>
+		<br>
+					
+				
         <input type="submit" id="accept1" value="Finalizar" />
     </form>
 </section>
