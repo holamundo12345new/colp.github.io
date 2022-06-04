@@ -81,7 +81,7 @@
 			<div class="icon" id="icon">
 			<img src="user.png" alt="icon-user">
 			<h3>Nombre y Apellido</h3></div>
-        	<input  id="nombre" type="nombre" name="nombre" placeholder=""  value="" readonly required=>
+        	<input  id="nombre" type="nombre" name="nombre" placeholder=""  value="" required=>
 			<br>
 	
 <script>
